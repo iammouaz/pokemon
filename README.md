@@ -7,29 +7,6 @@ A polished React application that explores the Pokémon universe using the Poké
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38bdf8?style=for-the-badge&logo=tailwindcss)
 ![React Query](https://img.shields.io/badge/React%20Query-5.0-ff4154?style=for-the-badge&logo=reactquery)
 
-## 🌟 Features
-
-### Core Features (Must-Have)
-- ✅ **Project Setup**: Next.js 15 with TypeScript, TailwindCSS, and modern tooling
-- ✅ **Data List & Detail View**: Paginated Pokémon list with infinite scroll and detailed individual pages
-- ✅ **Search, Filter & Sort**: 
-  - Debounced search (300ms) with URL persistence
-  - Type-based filtering
-  - Multiple sorting options (ID, name, height, weight)
-  - URL reflects all state for shareability
-- ✅ **Favorites System**: Toggle favorites with localStorage persistence
-- ✅ **Data Fetching**: React Query for caching, loading states, and error handling with request cancellation
-
-### Enhanced Features (Nice-to-Have)
-- ✅ **Client Caching**: React Query with background refetch and intelligent cache management
-- ✅ **Theme Toggle**: Dark/light mode with system preference detection and persistence
-- ✅ **Code Splitting**: Dynamic imports for detail route optimization
-- ✅ **Loading States**: Beautiful skeleton loaders and smooth transitions
-- ✅ **Error Handling**: Comprehensive error states with retry functionality
-- ✅ **Accessibility**: ARIA labels, focus management, keyboard navigation
-
-## 🚀 Quick Start
-
 ### Prerequisites
 - Node.js 18+ 
 - npm or yarn
