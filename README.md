@@ -38,7 +38,7 @@ A polished React application that explores the Pokémon universe using the Poké
 
 ```bash
 # Clone the repository
-git clone <https://github.com/iammouaz/pokemon.git>
+git clone https://github.com/iammouaz/pokemon.git
 cd pokemon-explorer
 
 # Install dependencies
