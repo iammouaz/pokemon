@@ -189,32 +189,6 @@ Update `src/lib/api.ts` to modify:
 - Safari 14+
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🚧 Known Limitations & Trade-offs
-
-### Current Limitations
-
-1. **Search Scope**: Client-side search limited to loaded Pokémon (PokéAPI doesn't support server-side search)
-2. **Image Availability**: Some Pokémon may have missing official artwork
-3. **Offline Support**: No offline functionality (future enhancement)
-4. **Type Filtering**: When filtering by type, pagination resets (API limitation)
-
-### Design Trade-offs
-
-1. **Client-side Search vs Server-side**: 
-   - **Chosen**: Client-side with large initial load
-   - **Trade-off**: Better UX but higher initial bandwidth
-   - **Rationale**: PokéAPI lacks search endpoints
-
-2. **localStorage vs Database**:
-   - **Chosen**: localStorage for favorites
-   - **Trade-off**: Data not synchronized across devices
-   - **Rationale**: Simpler implementation, no backend required
-
-3. **Infinite Scroll vs Pagination**:
-   - **Chosen**: Infinite scroll with manual load more
-   - **Trade-off**: Less precise navigation but better mobile UX
-   - **Rationale**: Modern UX patterns, better for discovery
-
 ## 🔮 Future Enhancements
 
 ### Short-term (Next Sprint)
